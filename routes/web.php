@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+// The route for fetching all posts from our model
+Route::get('/blog', [\App\Http\Controllers\BlogPostController::class, 'index']);
