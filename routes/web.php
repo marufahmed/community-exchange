@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 // The route for fetching all posts from our model
 Route::get('/blog', [\App\Http\Controllers\BlogPostController::class, 'index']);
+Route::get('/blog/{blogPost}', [\App\Http\Controllers\BlogPostController::class, 'show']);
