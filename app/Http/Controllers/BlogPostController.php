@@ -12,7 +12,8 @@ class BlogPostController extends Controller
      */
     public function index()
     {
-        //
+        $posts = BlogPost::all(); //fetch all blog posts from database
+        return $posts; //returns the fetched posts to the view
     }
 
     /**
