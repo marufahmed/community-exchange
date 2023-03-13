@@ -37,7 +37,7 @@ class BlogPostController extends Controller
      */
     public function show(BlogPost $blogPost)
     {
-        //
+        return $blogPost; //returns the fetched blog post
     }
 
     /**
