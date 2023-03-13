@@ -1,3 +1,6 @@
+##Community Exchange
+<p>This is a program created to serve members within a community to exchange materials related to that community. The initial program was created as a course assignment and this program is extends the functionalities and is re-implemented using Laravel MVC framework.<p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
