@@ -7,7 +7,7 @@
                 <p>Welcome to Community Exchange. Designed to empower your community welfare.
                 </p>
                 <br>
-                <a href="/blog" class="btn btn-outline-primary">Show Blog</a>
+                <a href="/blog" class="btn btn-outline-primary">Show Feed</a>
             </div>
         </div>
     </div>
