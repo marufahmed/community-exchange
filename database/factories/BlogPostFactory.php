@@ -3,7 +3,6 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Faker\Generator as Faker;
 use Illuminate\Support\Str;
 
 /**
@@ -17,16 +16,14 @@ class BlogPostFactory extends Factory
      * @return array<string, mixed>
      */
 
-
-
     // More information about faker library can be found here: https://github.com/fzaninotto/Faker#fakerprovideren_usperson
     public function definition(): array
     {
         return [
-            'name' => $faker->name,
-            'description' => $faker->realText($maxNbChars = 200, $indexSize = 2),
-            'user_id' => User::factory(),
-            'valuation' => $faker->numberBetween($min = 1000, $max = 9000)
+            'name' => fake()->sentence($nbWords = 6, $variableNbWords = true),
+            'description' => fake()->realText($maxNbChars = 200, $indexSize = 2),
+            'user_id' => \User::factory(),
+            'valuation' => fake()->numberBetween($min = 1000, $max = 9000),
         ];
     }
     
