@@ -40,7 +40,7 @@ class BlogPostController extends Controller
     public function show(BlogPost $blogPost)
     {
         return view('blog.show', [
-            ‘post’ => $blogPost,
+            'post' => $blogPost,
         ]); //returns the view with the post
     }
 
