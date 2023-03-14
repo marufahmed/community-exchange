@@ -5,7 +5,6 @@
             <img class="card-img-top" src="https://picsum.photos/400" alt="Card image cap">
                 <div class="card-body">
                     <h1 class="display-one">{{ ucfirst($post->name) }}</h1>
-
                     <p>Name of the Item: {!! $post->name  !!}</p> 
                     <p>Description: {!! $post->description  !!}</p> 
                     <p>User: {!! $post->user_id  !!}</p> 
