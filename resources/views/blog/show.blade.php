@@ -1,4 +1,6 @@
 @extends('layouts.app')
+@extends('layouts.admin')
+
 @section('content')
     <div class="container">
         <div class="card justify-content-center" style="width: 400px;">
